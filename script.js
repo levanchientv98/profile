@@ -36,7 +36,7 @@ const selectFunction = () => {
   document.getElementById("selectID").style.color = "#1C1C1C";
 };
 
-const menuSettings = document.querySelectorAll(".menu-setting");
+const menuSettings = document.querySelectorAll(".text-style");
 menuSettings.forEach((menuSetting) => {
   menuSetting.addEventListener("click", function () {
     menuSettings.forEach((title) => title.classList.remove("clicked"));

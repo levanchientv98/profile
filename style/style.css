@@ -112,16 +112,17 @@ li {
   font-weight: 500;
 }
 
-.flex-item2 a:hover {
+.flex-item2 p:hover {
   color: #1c1c1c;
   font-weight: 700;
 }
 
-.menuSetting {
+.flex-item2 p {
+  cursor: pointer;
 }
 
-.menuSetting.clicked {
-  font-weight: 800;
+.text-style.clicked {
+  font-weight: 700;
   color: #000;
 }
 
