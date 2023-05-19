@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.eclipse {
+  position: absolute;
+  width: 81px;
+  height: 81px;
+  left: 19px;
+  top: 1007px;
+
+  background: #ff7008;
+}
+
+.vector4 {
+  position: absolute;
+  left: 11.09%;
+  right: 11.09%;
+  top: 10%;
+  bottom: 10%;
+
+  background: #ffffff;
+}
+
+li {
+  list-style: none;
+}
+
+.sidebar {
+  position: absolute;
+  width: 120px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+
+  background: #ffc297;
+}
+
+.gird-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 250px;
+  height: 100vh;
+  margin-left: 120px;
+  border-right: 1px solid #858585;
+}
+
+.flex-item {
+  padding: 10px;
+  margin: 10px;
+  height: 5vh;
+}
+
+.flex-item1 {
+  padding: 10px;
+  margin: 20px 12px 26px 12px;
+  height: 5vh;
+}
+
+.flex-item2 {
+  padding: 10px;
+  margin: 12px 0 12px 25px;
+  height: 5vh;
+}
+
+.icon-style {
+  width: 30px;
+  height: 22px;
+}
+
+.flex-item6 {
+  display: flex;
+}
+
+.setting-style {
+  max-width: 35px;
+  height: auto;
+}
+
+.title-style {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.title-style2 {
+  font-size: 32px;
+  margin: 30px;
+}
+
+.text-style {
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 5px;
+  color: #858585;
+  font-weight: 500;
+}
+
+.flex-item2 a:hover {
+  color: #1c1c1c;
+  font-weight: 700;
+}
+
+.menuSetting {
+}
+
+.menuSetting.clicked {
+  font-weight: 800;
+  color: #000;
+}
+
+.flex-item2 img {
+  margin-right: 15px;
+}
+
+#black-text {
+  color: #000;
+  font-weight: 700;
+}
+
+.i1 {
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+}
+.i6 {
+  display: flex;
+  background-color: #ff7008;
+  border-radius: 50px;
+  align-items: center;
+  margin-top: auto;
+  height: 35px;
+}
+.title-style3 {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  margin-top: 40px;
+}
+
+.icon-style2 {
+  display: flex;
+  align-self: self-start;
+  margin-left: 26vw;
+  width: 120px;
+  height: 120px;
+}
+
+.form-group {
+  width: 80%;
+  margin-left: 30px;
+}
+
+.label-style {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: #1c1c1c;
+}
+
+.layout-title {
+  display: flex;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  margin-right: 30px;
+  background: #ffffff;
+  border: 2px solid #ff7008;
+  border-radius: 5px;
+  color: #ff7008;
+}
+
+button:hover {
+  background: #ff7008;
+  color: #fff;
+  font-weight: 600;
+}
+
+.label-layout {
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 1rem;
+}
+
+.tick {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#email,
+#address,
+#contact,
+#contact-number {
+  width: 45vw;
+  height: 25px;
+}
+
+#city {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 20vw;
+  margin-bottom: 30px;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#first-name,
+#last-name {
+  width: 20vw;
+  margin-right: 60px;
+  height: 25px;
+}
+
+.address-input {
+  display: flex;
+  align-items: center;
+  width: 784px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 46.5vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#email {
+  width: 45vw;
+  border: none;
+}
+.icon-color {
+  filter: invert(0.5);
+}
+.selectID {
+  color: #858585;
+  font-weight: 700;
+}
+
+/* #icon-tick {
+  display: none;
+} */

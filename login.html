@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style-login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex-container">
+        <div class="layout1">
+          <form class="login-form" action="#">
+            <img class="image-style3" src="./img/logo.svg" alt="icon-logo" />
+            <h2>Login</h2>
+            <div class="flex-item">
+              <label for="user">Username</label>
+              <input type="text" name="user" id="username-field" />
+              <div class="flex-item1">
+                <label for="password">Password</label>
+                <a href="#">Forgot password?</a>
+              </div>
+              <div class="password-style">
+                <input
+                  type="password"
+                  name="password"
+                  id="password-field"
+                  value="secret"
+                /><span class="toggle-password"
+                  ><img
+                    onclick="showHidePassword()"
+                    id="field-icon"
+                    src="./img/hide.png"
+                    alt="icon-eye"
+                /></span>
+              </div>
+            </div>
+            <div class="flex-item2">
+              <button type="button" onclick="login()">
+                <p class="login-style">Login</p>
+                <img
+                  class="image-style2"
+                  src="./img/arr-right.svg"
+                  alt="icon-arrow-right"
+                />
+              </button>
+              <p class="title-style">or continue with</p>
+              <div class="login-by">
+                <a href="#"><img src="./img/Google.svg" alt="icon-google" /></a>
+                <a href="#"><img src="./img/Github.svg" alt="icon-github" /></a>
+                <a href="#"
+                  ><img src="./img/Facebook.svg" alt="icon-facebook"
+                /></a>
+              </div>
+              <div class="register">
+                <p>Don't have an account yet?</p>
+                <a href="#">Sign up for free</a>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="layout2">
+          <div class="image-size">
+            <img
+              class="image-style"
+              src="./img/Character-working-laptop-sitting-chair.svg"
+              alt="img-working"
+            />
+            <img class="image-style1" src="./img/cactus.svg" alt="img-cactus" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>
