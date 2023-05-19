@@ -22,7 +22,7 @@ const login = () => {
       localStorage.setItem("token", data.token);
       localStorage.setItem("token", data.firstName);
       console.log("Login successful");
-      window.location.href = "./index.html";
+      window.location.href = "./profile.html";
     })
     .catch((error) => {
       console.error("Login failed", error);

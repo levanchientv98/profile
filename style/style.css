@@ -101,7 +101,7 @@ li {
 
 .title-style2 {
   font-size: 32px;
-  margin: 30px;
+  margin: 20px 30px 20px 30px;
 }
 
 .text-style {
@@ -150,17 +150,23 @@ li {
 }
 .title-style3 {
   display: flex;
-  width: 100%;
-  align-items: baseline;
+  justify-content: space-between;
+  width: 76%;
+  align-items: center;
   margin-top: 40px;
 }
 
-.icon-style2 {
+.name {
   display: flex;
+  align-items: center;
+  gap: 20px;
   align-self: self-start;
-  margin-left: 26vw;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+}
+
+.icon-style2 {
+  width: 80px;
+  height: 80px;
 }
 
 .form-group {
