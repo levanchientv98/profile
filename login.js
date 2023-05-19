@@ -20,7 +20,8 @@ const login = () => {
     })
     .then((data) => {
       localStorage.setItem("token", data.token);
-      localStorage.setItem("token", data.firstName);
+      localStorage.setItem("firstName", data.firstName);
+      localStorage.setItem("image", data.image);
       console.log("Login successful");
       window.location.href = "./profile.html";
     })

@@ -102,8 +102,18 @@
         <div class="title-style3">
           <h3 class="title-style2">Edit profile</h3>
           <div class="name">
-            <h4>Le Chien</h4>
-            <img class="icon-style2" src="./img/logo.svg" alt="img-logo" />
+            <h4 id="information"></h4>
+            <div class="dropdown">
+              <img
+                id="image-id"
+                class="icon-style2"
+                src="./img/logo.svg"
+                alt="img-logo"
+              />
+              <div class="dropdown-content">
+                <a type="button" onclick="logOut()">Log out</a>
+              </div>
+            </div>
           </div>
         </div>
         <form id="form-profile" action="#" class="form-group">
@@ -113,7 +123,7 @@
               <input
                 type="text"
                 id="first-name"
-                name="first-name"
+                name="first-Name"
                 placeholder="Le"
                 required
               />
@@ -131,7 +141,7 @@
           </div>
           <div class="label-style">
             <label for="email">Email:</label>
-            <div class="your-email flex-container2">
+            <div class="your-email">
               <input
                 type="email"
                 onchange="checkEmail()"
@@ -139,10 +149,8 @@
                 name="email"
                 placeholder="example@gmail.com"
                 required
-              />
-
-              <img
-                id="icon-tick"
+              /><img
+                id="field-icon"
                 class="tick"
                 src="./img/icons8-tick.svg"
                 alt="ticker"
@@ -173,8 +181,8 @@
           </div>
           <div>
             <label for="city">City:</label>
-            <select name="City" id="city">
-              <option value="null"></option>
+            <select name="City" id="city-id">
+              <option value=""></option>
               <option value="VietNam">Việt Nam</option>
               <option value="Japan">Japan</option>
               <option value="China">China</option>
@@ -184,7 +192,7 @@
           <button id="cancel" onclick="cancelFunction()" type="button">
             Cancel
           </button>
-          <button id="save" type="button">Save</button>
+          <button id="save" onclick="saveFunction()" type="button">Save</button>
         </form>
       </section>
     </div>
