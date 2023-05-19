@@ -1,17 +1,17 @@
 body {
   margin: 0;
-  width: 1920px;
   height: auto;
-  background-color: #00dbde;
-  overflow: hidden;
-  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  background: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 52px;
-  margin: 25px 0 20px 0;
+  margin: 0;
 }
 
 label {
@@ -21,32 +21,40 @@ label {
 }
 
 .container {
-  margin: 40px 30px 30px 100px;
-  width: 80vw;
+  margin: 119px 318px 112px 176px;
+  width: 1248px;
   height: auto;
   background: #fff;
   border-radius: 40px;
 }
+
 .login-form {
   display: flex;
+  row-gap: 30px;
   flex-direction: column;
   width: 478px;
-  margin: 70px 0 5px 50px;
+  padding: 70px 0 5px 50px;
 }
+
 .flex-container {
   display: flex;
   height: 100%;
 }
+
 .layout2 {
-  width: 30%;
+  display: flex;
+  width: 40%;
   background-color: #6096b4;
   border-radius: 40px;
 }
+
 .flex-item {
   display: flex;
   flex-direction: column;
+  row-gap: 10px;
   width: 100%;
 }
+
 .flex-item1 {
   display: flex;
   justify-content: space-between;
@@ -91,15 +99,19 @@ label {
   position: relative;
   display: block;
   top: 100px;
-  right: 190px;
-  width: 100%;
+  right: 290px;
+  width: 552px;
 }
+
 .image-style1 {
+  display: block;
   position: relative;
-  width: 40%;
+  width: 200px;
+  height: 550px;
   top: 100px;
-  right: 200px;
+  right: 240px;
 }
+
 .image-style2 {
   vertical-align: middle;
 }
@@ -108,12 +120,13 @@ label {
   display: flex;
   width: 374px;
 }
+
 .layout1 {
   width: 70%;
 }
+
 .flex-item input {
   border: none;
-  margin: 7px 0 20px 0;
   height: 46px;
   width: 100%;
   padding: 0 10px;
@@ -176,6 +189,7 @@ label {
   font-weight: 400;
   font-size: 14px;
 }
+
 .image-style3 {
   width: 50px;
 }
@@ -184,7 +198,7 @@ label {
   float: right;
   width: 20px;
   cursor: pointer;
-  margin-top: -50px;
+  margin-top: -32px;
   position: relative;
   z-index: 2;
 }
